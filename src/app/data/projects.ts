@@ -1,4 +1,4 @@
-import { faCss3Alt, faHtml5, faWordpress } from "@fortawesome/free-brands-svg-icons";
+import { faCss3Alt, faHtml5, faReact, faWordpress } from "@fortawesome/free-brands-svg-icons";
 import type { Project } from "../types";
 
 export const projects: Project[] = [
@@ -15,6 +15,23 @@ export const projects: Project[] = [
             {
                 title: "HTML5",
                 icon: faHtml5
+            },
+            {
+                title: "CSS3",
+                icon: faCss3Alt
+            }
+        ],
+    },
+    {
+        name: "Pokédex",
+        description: "A Pokédex built using NextJS and PokeAPI. I wanted to design and make it look like the generation 9 in game Pokédex.",
+        url: "https://pokedex-coral-nu.vercel.app/",
+        image: "/pokedex.webp",
+        github: "",
+        icons: [
+            {
+                title: "React (NextJS)",
+                icon: faReact
             },
             {
                 title: "CSS3",
