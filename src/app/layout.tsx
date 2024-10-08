@@ -3,23 +3,22 @@ import { type Metadata } from "next";
 import Header from "./components/header/Header";
 import Socials from "./components/socials/Socials";
 
-import { Open_Sans,  Bitter } from "next/font/google"
+import { Open_Sans, Bitter } from "next/font/google"
 
 
-export const openSans = Open_Sans({
+const openSans = Open_Sans({
     weight: ["400", "600"],
     subsets: ["latin"],
     display: "swap",
 	variable: "--font-open-sans",
 })
 
-export const bitter = Bitter({
+const bitter = Bitter({
     weight: ["600"],
     subsets: ["latin"],
     display: "swap",
 	variable: "--font-bitter",
 })
-
 
 export const metadata: Metadata = {
 	title: "Sam's Portfolio",
