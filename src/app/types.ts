@@ -17,3 +17,8 @@ export type Project = {
     }[];
     github?: string;
 }
+
+export type Skill = {
+    name: string;
+    icon: IconProp
+}

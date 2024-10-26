@@ -5,6 +5,9 @@
 :root {
     --grid-width: 900px;
     --gap: 2rem;
+    --primary: #5F64CA;
+    --secondary: #FFC6FF;
+    --tertiary: #353862;
 }
 
 .custom-container {

@@ -8,7 +8,7 @@ export default function Projects() {
         <section className="py-8 text-white flex flex-col gap-8 lg:py-16">
             <h2 className={`text-5xl font-semibold`}>Projects</h2>
             {projects.map(({ name, description, url, icons, image, github }, index) => (
-                <article key={index} className="flex flex-col gap-4 border-b-2 pb-8 justify-between lg:flex-row lg:gap-8">
+                <article key={index} className="flex flex-col gap-4 border-b-2 pb-8 justify-between items-center lg:flex-row lg:gap-8">
                     <Image src={image} alt={name} width={265} height={265} className="rounded" />
                     <div className="flex flex-col gap-6">
                         <h3 className="text-2xl">{name}</h3>
